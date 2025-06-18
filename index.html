@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abigail Ashley Ayitey – Backend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="hero">
+      <nav>
+        <div class="logo">AAA•</div>
+        <div class="links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="assets/YourCV.pdf" class="btn-sm" download>Download CV</a>
+        </div>
+      </nav>
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Abigail Ashley Ayitey</span></h1>
+        <p>
+          Backend Developer | Node.js • Express.js • JavaScript • HTML • CSS
+        </p>
+        <div class="social-buttons">
+          <a
+            href="https://github.com/AbigailAshleyA"
+            target="_blank"
+            class="btn-social github"
+            >GitHub</a
+          >
+          <a
+            href="www.linkedin.com/in/abigail-ashley-ayitey-2366a3100"
+            target="_blank"
+            class="btn-social linkedin"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img
+          src="./assets/Abby 3.jpg"
+          alt="Profile Picture"
+          class="profile-img"
+        />
+        <p>
+          I’m a Web Developer with a strong focus on backend development and a
+          solid foundation in HTML, CSS, and JavaScript. I specialize in
+          building scalable and secure server-side applications using Node.js,
+          Express.js, and tools like Multer. I'm passionate about solving
+          backend challenges and crafting clean, efficient APIs that integrate
+          seamlessly with frontend systems.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Auth System API</h3>
+          <p>
+            Secure login system with JWT, hashed passwords using bcrypt, and
+            role-based access.
+          </p>
+          <a href="#">View Code</a>
+        </div>
+        <div class="project-card">
+          <h3>File Uploader</h3>
+          <p>
+            Efficient file/image upload system using Multer and Express for
+            validation and storage.
+          </p>
+          <a href="#">View Code</a>
+        </div>
+        <div class="project-card">
+          <h3>Product Catalog API</h3>
+          <p>
+            RESTful API with advanced filtering, MongoDB connection, and
+            pagination features.
+          </p>
+          <a href="#">View Code</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-status"></p>
+    </section>
+
+    <footer>
+      <p>
+        Designed by [Your Name] © 2025 — Connect with me:
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/yourusername" target="_blank"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
